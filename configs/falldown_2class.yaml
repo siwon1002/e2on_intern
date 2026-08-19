@@ -1,0 +1,8 @@
+# 낙상 탐지 2클래스 데이터셋 설정
+# 사용 시 아래 경로를 본인 환경의 데이터셋 위치로 수정하세요.
+train: ./train/images/
+val: ./val/images/
+test: ./test/images/
+
+nc: 2
+names: ['Normal', 'Falldown']
